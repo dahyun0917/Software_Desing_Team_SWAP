@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:text="배차조회" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:layout_marginTop="103dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_popup_sync" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/abc_vector_test" />
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="?attr/actionModeCloseDrawable" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="439dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="67dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/time1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="17시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="19시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="21시"
+                    app:backgroundTint="#858383" />
+
+                <Button
+                    android:id="@+id/time12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="23시"
+                    app:backgroundTint="#858383" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/timeText"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="\t\t출발" />
+
+                <TextView
+                    android:id="@+id/ticket1"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket2"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket3"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket4"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket5"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket6"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket7"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket8"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket9"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/ticket10"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/remainSeatText"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="              잔여좌석" />
+
+                <TextView
+                    android:id="@+id/remainSeat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat7"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat8"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat9"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/remainSeat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="TextView" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
