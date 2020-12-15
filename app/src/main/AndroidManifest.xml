@@ -19,6 +19,7 @@
         <activity android:name=".getDate"/>
         <activity android:name=".getLocation"/>
 
+
     </application>
 
 </manifest>

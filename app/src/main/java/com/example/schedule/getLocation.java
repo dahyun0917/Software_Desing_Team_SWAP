@@ -16,7 +16,7 @@ public class getLocation extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_location);
+        setContentView(R.layout.activity_select_location_refine);
         /*location l = new location();
 
         Button b1 = (Button)findViewById(R.id.button13);
@@ -40,16 +40,20 @@ public class getLocation extends AppCompatActivity {
         Button b7 = (Button)findViewById(R.id.button19);
         b7.setText(l.loc[6]);*/
 
-        ArrayList<String> list = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            list.add(String.format("TEXT %d", i));
-        }
+        String[] arr1 = new String[7];
+
+        String[] loc = {"동대구","부산","서울","포항","구미","동해","경주"};
 
         RecyclerView recyclerView = findViewById(R.id.recycler1);
-        recyclerView.setLayoutManager((new LinearLayoutManager(this)));
 
-        adapter adapt = new adapter(list);
-        recyclerView.setAdapter(adapt);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+        adapter adt = new adapter();
+        adt.addItem("대구");
+        adt.addItem("부산");
+        recyclerView.setAdapter(adt);
+
 
     }
 }
