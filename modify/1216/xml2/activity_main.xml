@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="76dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_oneway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="편도"
+                android:textSize="8sp"
+                app:backgroundTint="#CCCCCC" />
+
+            <Button
+                android:id="@+id/bt_roundway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="왕복"
+                android:textSize="8sp"
+                app:backgroundTint="#CCCCCC" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="500">
+
+                <TextView
+                    android:id="@+id/text_departure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="TextView" />
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/bt_swap"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_popup_sync" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="500">
+
+                <Button
+                    android:id="@+id/bt_arrival"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="500"
+                    android:gravity="left"
+                    android:text="도착지"
+                    android:textSize="8sp"
+                    app:backgroundTint="#CCCCCC" />
+
+                <TextView
+                    android:id="@+id/text_arrival"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="TextView" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_date"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:text="가는날"
+            android:textSize="8sp"
+            app:backgroundTint="#CCCCCC" />
+
+        <Button
+            android:id="@+id/bt_refer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="조회"
+            android:textSize="8sp"
+            app:backgroundTint="#F1E368" />
+
+        <Button
+            android:id="@+id/bt_departure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="500"
+            android:gravity="left"
+            android:text="출발지"
+            android:textSize="8sp"
+            app:backgroundTint="#CCCCCC" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
