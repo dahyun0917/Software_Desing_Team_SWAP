@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="444dp"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="390dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="#FFD1A6"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="배차조회" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="432dp"
+        android:layout_height="562dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_popup_sync" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/abc_vector_test" />
+
+                <EditText
+                    android:id="@+id/textDateRefer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotationY="-181"
+                    app:srcCompat="?attr/actionModeCloseDrawable" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="469dp"
+            android:background="#C1DCF1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#91BBDC"
+                    android:gravity="center"
+                    android:text="출발" />
+
+                <TextView
+                    android:id="@+id/dptView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="07:30"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="07:40"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="08:00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="08:20"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="08:20"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="08:40"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="09:00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="09:00"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="09:20"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dptView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:text="09:40"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="148dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/timeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#91BBDC"
+                    android:gravity="center"
+                    android:text="도착" />
+
+                <TextView
+                    android:id="@+id/ticket1"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="08:20"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket2"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="08:35"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket3"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="08:55"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket4"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="09:15"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket5"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="09:10"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket6"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="09:35"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket7"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="09:55"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket8"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="09:50"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket9"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="10:15"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ticket10"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="10:30"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="151dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/busGrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#91BBDC"
+                    android:gravity="center"
+                    android:text="    시외/고속" />
+
+                <TextView
+                    android:id="@+id/busGrade1"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="고속"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade2"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade3"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade4"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade5"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="고속"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade6"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade7"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade8"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="고속"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade9"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="시외"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/busGrade10"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="고속"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timeRecommend"
+        android:layout_width="121dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chargeRecommend"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/chargeRecommend"
+        android:layout_width="121dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:layout_width="141dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="4dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ECCF79"
+                android:text="출발지" />
+
+            <TextView
+                android:id="@+id/arvText"
+                android:layout_width="69dp"
+                android:layout_height="81dp"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ECCF79"
+                android:text="도착지" />
+
+            <TextView
+                android:id="@+id/dptText"
+                android:layout_width="72dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:text="TextView" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
+        android:layout_marginBottom="8dp"
+        android:background="#ECCF79"
+        android:text="      추천 노선"
+        app:drawableTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/timeRecommend"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

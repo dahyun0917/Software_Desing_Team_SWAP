@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_check"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#FFD1A6"
+            android:gravity="center"
+            android:text="날짜 선택"
+            android:textColor="#050505"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="365dp"
+        android:layout_height="514dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="88dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC"
+        android:text="확인"
+        android:textColor="#090909"
+        app:backgroundTint="#CCCCCC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

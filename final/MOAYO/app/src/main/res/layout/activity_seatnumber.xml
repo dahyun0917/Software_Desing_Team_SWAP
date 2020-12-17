@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    tools:context=".exseatNumber">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFD1A6">
+
+            <TextView
+                android:id="@+id/select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="좌석선택"
+                android:textSize="25dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="662dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="216dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/iButton1"
+                                android:layout_width="match_parent"
+                                android:layout_height="83dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus1" />
+
+                            <ImageButton
+                                android:id="@+id/iButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="83dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus4" />
+
+                            <ImageButton
+                                android:id="@+id/iButton7"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus7" />
+
+                            <ImageButton
+                                android:id="@+id/iButton10"
+                                android:layout_width="match_parent"
+                                android:layout_height="84dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus10" />
+
+                            <ImageButton
+                                android:id="@+id/iButton13"
+                                android:layout_width="match_parent"
+                                android:layout_height="85dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus13" />
+
+                            <ImageButton
+                                android:id="@+id/iButton16"
+                                android:layout_width="match_parent"
+                                android:layout_height="86dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus16" />
+
+                            <ImageButton
+                                android:id="@+id/iButton19"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus19" />
+
+                            <ImageButton
+                                android:id="@+id/iButton22"
+                                android:layout_width="match_parent"
+                                android:layout_height="82dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus22" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/iButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="83dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus2" />
+
+                            <ImageButton
+                                android:id="@+id/iButton5"
+                                android:layout_width="match_parent"
+                                android:layout_height="83dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus5" />
+
+                            <ImageButton
+                                android:id="@+id/iButton8"
+                                android:layout_width="match_parent"
+                                android:layout_height="81dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus8" />
+
+                            <ImageButton
+                                android:id="@+id/iButton11"
+                                android:layout_width="match_parent"
+                                android:layout_height="85dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus11" />
+
+                            <ImageButton
+                                android:id="@+id/iButton14"
+                                android:layout_width="match_parent"
+                                android:layout_height="84dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus14" />
+
+                            <ImageButton
+                                android:id="@+id/iButton17"
+                                android:layout_width="match_parent"
+                                android:layout_height="85dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus17" />
+
+                            <ImageButton
+                                android:id="@+id/iButton20"
+                                android:layout_width="match_parent"
+                                android:layout_height="82dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus20" />
+
+                            <ImageButton
+                                android:id="@+id/iButton23"
+                                android:layout_width="match_parent"
+                                android:layout_height="82dp"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/bus23" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="218dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent">
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="106dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/iButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="83dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus3" />
+
+                        <ImageButton
+                            android:id="@+id/iButton6"
+                            android:layout_width="match_parent"
+                            android:layout_height="82dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus6" />
+
+                        <ImageButton
+                            android:id="@+id/iButton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="84dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus9" />
+
+                        <ImageButton
+                            android:id="@+id/iButton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="82dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus12" />
+
+                        <ImageButton
+                            android:id="@+id/iButton15"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus15" />
+
+                        <ImageButton
+                            android:id="@+id/iButton18"
+                            android:layout_width="match_parent"
+                            android:layout_height="83dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus18" />
+
+                        <ImageButton
+                            android:id="@+id/iButton21"
+                            android:layout_width="match_parent"
+                            android:layout_height="83dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus21" />
+
+                        <ImageButton
+                            android:id="@+id/iButton24"
+                            android:layout_width="match_parent"
+                            android:layout_height="82dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/bus24" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/iButton26"
+                    android:layout_width="match_parent"
+                    android:layout_height="86dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/bus26" />
+
+                <ImageButton
+                    android:id="@+id/iButton25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/bus25" />
+
+                <ImageButton
+                    android:id="@+id/iButton27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/bus27" />
+
+                <ImageButton
+                    android:id="@+id/iButton28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/bus28" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

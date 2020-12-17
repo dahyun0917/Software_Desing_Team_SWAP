@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E81515"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFD1A6"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/moayo"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:background="#FFD1A6"
+            android:fontFamily="@font/londrinashadow"
+            android:gravity="center"
+            android:text="Moayo"
+            android:textColor="#111F42"
+            android:textColorHint="#FFD1A6"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="617dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="164dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="143dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="362dp"
+                        android:layout_height="214dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/bus" />
+
+                    <Button
+                        android:id="@+id/busReservationButton"
+                        android:layout_width="575dp"
+                        android:layout_height="196dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:width="600dp"
+                        android:fontFamily="@font/font"
+                        android:text="버스 예매"
+                        android:textColor="#050505"
+                        android:textSize="30dp"
+                        app:backgroundTint="#FFFFFF"
+                        app:iconTint="#FFFFFF" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="166dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="147dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="177dp"
+                        android:layout_height="214dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/check_green" />
+
+                    <Button
+                        android:id="@+id/reservedTicketButton"
+                        android:layout_width="389dp"
+                        android:layout_height="198dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="예매 확인 및 변경"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        app:backgroundTint="#FFFFFF" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="155dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="159dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="162dp"
+                        android:layout_height="151dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        app:srcCompat="@drawable/sign_up"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <Button
+                        android:id="@+id/logoutButton"
+                        android:layout_width="375dp"
+                        android:layout_height="166dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:width="600dp"
+                        android:text="로그아웃"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        app:backgroundTint="#FFFFFF"
+                        app:iconTint="#FFFFFF" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="92dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/swap" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
